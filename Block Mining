@@ -2,11 +2,11 @@ def block_mining(self, details_miner):
 
             self.get_data(
 
-            sender="0", #it implies that this node has created a new block
+            sender="0", #isso implica que este nó criou um novo bloco
 
             receiver=details_miner,
 
-            quantity=1, #creating a new block (or identifying the proof number) is awarded with 1
+            quantity=1, #criar um novo bloco (ou identificar o número da prova) é atribuído com 1
 
         )
 
