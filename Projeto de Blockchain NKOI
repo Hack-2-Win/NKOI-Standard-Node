@@ -1,0 +1,62 @@
+class NKOI_Block(object):
+
+    def __init__():
+
+        pass
+
+    # estrutura inicial da classe de bloco
+
+    def calc_hash():
+
+        pass
+
+     #produzir o hash criptográfico de cada bloco
+
+  class NKOI_Main_Chain(object):
+
+    def __init__(self):
+
+     # construindo NKOI chain principal
+
+    def NKOI_genesis(self):
+
+        pass
+
+      #criando o bloco inicial
+
+    def build_NKOI_block(self, proof_number, previous_hash):
+
+        pass
+
+      # constrói um novo bloco e adiciona à cadeia
+
+   @staticmethod
+
+    def confirm_validity(block, previous_block):
+
+        pass
+
+      #verifica se o blockchain é válido
+
+    def get_data(self, sender, receiver, amount):
+
+        pass
+
+    # declara dados de transações
+
+
+    @staticmethod
+
+    def proof_of_work(last_proof):
+
+        pass
+
+    #adds para a segurança do blockchain
+
+    @property
+
+    def latest_block(self):
+
+        pass
+
+    # retorna o último bloco da chain
